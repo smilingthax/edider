@@ -1,7 +1,7 @@
 edider: Tools for editing edid files
 ====================================
 
-1. Convert edid files from/to JSON.
+1. Convert edid files from/to JS objects and JSON.
 
 Usage:
 ```sh
@@ -12,6 +12,11 @@ edid2json.js edid.hex|edid.bin > edid.json
 json2edid.js edid.json > edid.hex
 
 ```
+
+NOTE:
+ * No validation of parameter values takes place.
+ * Unknown / Unimplemented descriptors / extensions are kept as verbatim Buffer (so they round-trip properly).
+
 
 Copyright (c) 2020 Tobias Hoffmann
 
