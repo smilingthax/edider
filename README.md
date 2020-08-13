@@ -9,7 +9,7 @@ show.js edid.hex|edid.bin
 
 edid2json.js edid.hex|edid.bin > edid.json
 
-json2json.js edid.json > edid.hex
+json2edid.js edid.json > edid.hex
 
 ```
 
