@@ -18,6 +18,9 @@ NOTE:
  * Unknown / Unimplemented descriptors / extensions are kept as verbatim Buffer (so they round-trip properly).
 
 
+2. `lib/` also contains DMT, GMT and CVT timing tables / calculators, but there is no command-line tool for them yet.
+
+
 Copyright (c) 2020 Tobias Hoffmann
 
 License: https://opensource.org/licenses/MIT
